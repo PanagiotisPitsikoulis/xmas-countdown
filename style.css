@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(161, 161, 161);
+}
+
+* {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background: rgba(255, 255, 255, 0.4);
+    background-blend-mode: multiply;
+    text-align: center;
+    color: white;
+    line-height: 49px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#info {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+    font-family: cursive;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#count {
+    margin: 0px;
+    font-size: 160px;
+    padding-top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#container {
+    width: 260px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.7);
+    background-image: url("assets/bg.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 12px;
+    margin-top: 24px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#container:hover {
+    background: rgba(255, 255, 255, 0.4);
+    color: black;
+    background-image: url("assets/bg.jpg");
+    background-size: cover;
+    background-blend-mode: lighten;
+    border-radius: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 12px;
+    margin-top: 24px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+#container:hover #count {
+    transform: scale(1.1);
+    color: black;
+    transition: 0.8s;
+}
+
+#container:hover #info {
+    visibility: hidden;
+}
+
+#container:hover #header {
+    transform: scale(0.9);
+    transition: 0.8s;
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+#like-container {
+    text-align: center;
+    width: 280px;
+    background: rgba(0, 0, 0, 0.7);
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    border-radius: 12px;
+    padding: 8px;
+    margin-top: 20px;
+    border-width: 0px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#like-container:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+#like-button {
+    margin-right: 10px;
+    border-width: 0px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#like-button:disabled {
+    opacity: 0;
+    transition: all 1s;
+    background-color: rgb(255, 255, 255);
+}
+
+#like-button:active {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+#like-counter {
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+#instagram-button {
+    margin-right: 10px;
+    border-width: 0px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
