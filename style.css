@@ -153,5 +153,5 @@ body {
 #calendar {
     max-width: 300px;
     margin: auto;
-    margin-top: 90px;
+    margin: top 5px;
 }
