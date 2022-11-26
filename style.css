@@ -6,6 +6,8 @@ body {
     color: white;
     margin: 0px;
     padding: 0px;
+    min-width: fit-content;
+    min-height: fit-content;
 }
 
 #header {
@@ -48,11 +50,9 @@ p {
 }
 
 #container {
-    width: 260px;
-    height: 400px;
-    background: rgba(0, 0, 0, 0.7);
-    background-image: url("assets/bg.jpg");
-    background-size: cover;
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
     border-radius: 30px;
     padding: 20px;
@@ -62,22 +62,13 @@ p {
     display: block;
     margin: auto;
     margin-top: 50px;
+
 }
 
 #container:hover {
     background: rgba(255, 255, 255, 0.4);
     color: black;
-    background-image: url("assets/bg.jpg");
-    background-size: cover;
     background-blend-mode: lighten;
-    border-radius: 30px;
-    padding: 20px;
-    padding-bottom: 40px;
-    margin: 12px;
-    margin-top: 24px;
-    display: block;
-    margin: auto;
-    margin-top: 50px;
     transform: scale(1.1);
     transition: 0.8s;
 }
@@ -102,9 +93,8 @@ p {
 #like-container {
     text-align: center;
     width: 280px;
-    background: rgba(0, 0, 0, 0.7);
-    background-image: url("bg.jpg");
-    background-size: cover;
+    background: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
     background-blend-mode: multiply;
     color: white;
     border-radius: 12px;
@@ -130,12 +120,12 @@ p {
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    opacity: 0.7;
 }
 
 #like-button:disabled {
     opacity: 0;
-    transition: all 1s;
-    background-color: rgb(255, 255, 255);
+    transition: all 2s;
 }
 
 #like-button:active {
@@ -150,14 +140,22 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
+    opacity: 0.7;
 }
 
-#instagram-button {
-    margin-right: 10px;
-    border-width: 0px;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 5px;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: color-burn;
+}
+
+#calendar {
+    display: flexbox;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 300px;
 }
