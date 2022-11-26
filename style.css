@@ -154,8 +154,7 @@ body {
 }
 
 #calendar {
-    display: flexbox;
-    max-width: 700px;
+    max-width: 300px;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 150px;
 }
