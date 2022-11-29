@@ -7,21 +7,23 @@
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.35);
     background-blend-mode: multiply;
     width: 100%;
     min-height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 50px;
     position: absolute;
     top: 0;
     left: 0;
+    margin-top:5px;
+    border-radius: 8px;
 }
 
 #nav-bar {
     display: flex;
+    margin-left: 30px;
     justify-content: left;
     align-items: center;
     width: 100%;
@@ -31,7 +33,7 @@ header {
 
 #nav-bar :nth-child(4) {
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: 30px;
 }
 
 #cal-header {
