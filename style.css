@@ -24,7 +24,7 @@ body {
     background-position: 39.8% 5%;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .nav {
@@ -141,7 +141,6 @@ h1 {
 #insta {
     display: flex;
     flex-direction: column;
-    background-color: rgba(240, 240, 255, 0.75);
     align-items: center;
     padding: 30px;
     gap: 20px;
@@ -153,18 +152,17 @@ h1 {
 }
 
 #insta img {
-    height: 135x;
-    margin: 10px;
+    height: 85px;
 }
 
 #insta-cont {
     display: flex;
-    gap: 10px;
+    gap: 9px;
+    background-color: rgba(240, 240, 255, 0.75);
+    border-radius: 12px;
 }
 
 #insta-desc {
-    background-color: rgba(240, 240, 255, 0.75);
-    border-radius: 12px;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -185,5 +183,37 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 9px;
+    background-color: rgba(240, 240, 255, 0.75);
+    border-radius: 12px;
+}
+
+#github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
     gap: 20px;
+    align-items: center;
+}
+
+#github img {
+    height: 75px;
+    margin: 10px;
+}
+
+#github p {
+    color: black;
+}
+
+#github-desc p {
+    color: black;
+    font-size: 12px;
+    text-align: left;
+}
+
+#github-desc {
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
