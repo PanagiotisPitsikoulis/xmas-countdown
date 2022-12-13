@@ -1,87 +1,80 @@
 * {
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    min-width: fit-content;
-    min-height: fit-content;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  min-width: fit-content;
+  min-height: fit-content;
 }
 
 p {
-    font-size: 30px;
-    text-align: center;
-    font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+  font-family: cursive;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  vertical-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .nav {
-    background-color: rgba(0, 0, 0, 0.35);
-    min-height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5px;
-    border-radius: 8px;
-    position: sticky;
-    top: 0;
-    padding-right: 15px;
+  background-color: rgba(0, 0, 0, 0.35);
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  border-radius: 8px;
+  position: sticky;
+  top: 0;
+  padding-right: 15px;
 }
-
 
 #nav-bar {
-    display: flex;
-    margin-left: 30px;
-    justify-content: left;
-    align-items: space-between;
-    gap: 20px;
-}
-
-
-body {
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  margin-left: 30px;
+  justify-content: left;
+  align-items: space-between;
+  gap: 60px;
 }
 
 .cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 12px;
-    max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
 }
 
 .cont p {
-    margin: 10px;
-    padding: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .cont p:nth-child(1) {
-    font-size: 50px;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: white;
-    padding: 20px;
-    border-radius: 12px;
-    margin-top: 20px;
+  font-size: 45px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
 }
 
 .cont p:nth-child(2) {
-    font-size: 200px;
-    text-align: center;
-    color: black;
+  font-size: 200px;
+  text-align: center;
+  color: black;
 }
 
 .cont p {
-    font-size: 20px;
-    text-align: center;
-    color: black;
+  font-size: 20px;
+  text-align: center;
+  color: black;
 }
