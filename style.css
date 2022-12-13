@@ -15,10 +15,12 @@ p {
 body {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 70px;
     vertical-align: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("assets/bg.jpg");
+    background-position: 40%;
 }
 
 .nav {
@@ -39,7 +41,7 @@ body {
     gap: 15%;
 }
 
-.cont {
+.cal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,12 +51,12 @@ body {
     border-radius: 12px;
 }
 
-.cont p {
+.cal p {
     margin: 10px;
     padding: 10px;
 }
 
-.cont p:nth-child(1) {
+.cal p:nth-child(1) {
     font-size: 45px;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.75);
@@ -64,13 +66,13 @@ body {
     margin-top: 20px;
 }
 
-.cont p:nth-child(2) {
+.cal p:nth-child(2) {
     font-size: 200px;
     text-align: center;
     color: black;
 }
 
-.cont p {
+.cal p {
     font-size: 20px;
     text-align: center;
     color: black;
