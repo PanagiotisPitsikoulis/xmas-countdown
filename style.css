@@ -134,14 +134,14 @@ h1 {
     /* Add a 2px solid black left border to the div */
 }
 
-#menu {
+.menu {
     height: 12px;
 }
 
 #insta {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(240, 240, 255, 0.75);
     align-items: center;
     padding: 30px;
     gap: 20px;
@@ -157,26 +157,33 @@ h1 {
     margin: 10px;
 }
 
-#insta-cont{
-    display:flex;
+#insta-cont {
+    display: flex;
     gap: 10px;
 }
 
 #insta-desc {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(240, 240, 255, 0.75);
     border-radius: 12px;
     display: flex;
     align-items: center;
     padding: 10px;
 }
 
-#insta-desc p{
+#insta-desc p {
     font-size: 12px;
     text-align: left;
     margin-left: 10px;
     color: black;
 }
 
-#spacer{
+#spacer {
     height: 300px;
+}
+
+#github-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
