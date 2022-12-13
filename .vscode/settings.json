@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/workspaces/xmas-countdown/index.html"
+  "livePreview.defaultPreviewPath": "/workspaces/xmas-countdown/index.html",
+  "cSpell.ignoreWords": ["insta"]
 }
