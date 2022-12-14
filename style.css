@@ -25,7 +25,7 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     margin-bottom: 20%;
-    margin-top: 20%;
+    margin-top: 30%;
 }
 
 .nav {
@@ -51,7 +51,7 @@ body {
 #nav-bar {
     display: flex;
     justify-content: space-around;
-    gap: 15%;
+    gap: 5%;
     margin-top: 2%;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .cal p:nth-child(2) {
-    font-size: 200px;
+    font-size: 15rem;
     text-align: center;
     color: black;
 }
@@ -177,8 +177,6 @@ h1 {
 
 #github-cont {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 9px;
     background-color: rgba(240, 240, 255, 0.75);
     border-radius: 12px;
@@ -212,4 +210,68 @@ h1 {
     display: flex;
     align-items: center;
     padding: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .cal {
+        margin-top: 8%;
+        width: 70%;
+        min-height: 400px;
+    }
+
+    body{
+        margin:0;
+        margin-top: 7%;
+        margin-bottom: 10%;
+    }
+
+    #nav-bar {
+        width: 100%;
+        justify-content: flex-start;
+        margin-left: 5%;
+        margin-top: 0px;
+    }
+
+    #nav-bar :nth-child(4) {
+        margin-left: auto;
+        margin-right: 3%;
+    }
+
+    #insta-cont {
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    #github-cont {
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    #github-desc p {
+        font-size: 18px;
+        background-color: rgba(52, 53, 53, 0.249);
+        padding: 20px;
+        color: rgb(255, 255, 255);
+        border-radius: 12px;
+    }
+
+    #insta-desc p {
+        font-size: 18px;
+        background-color: rgba(52, 53, 53, 0.249);
+        padding: 20px;
+        color: rgb(255, 255, 255);
+        border-radius: 12px;
+    }
+
+    #insta img{
+        height: 250px;
+    }
+
+    #github img{
+        height: 250px;
+    }
+    
+    #spacer {
+        height: 0px;
+    }
 }
