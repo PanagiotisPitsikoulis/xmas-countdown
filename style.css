@@ -24,20 +24,19 @@ body {
     background-position: 39.8% 5%;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    margin-bottom: 20px;
+    margin-bottom: 20%;
+    margin-top: 20%;
 }
 
 .nav {
     background-color: rgba(0, 0, 0, 0.35);
-    min-height: 60px;
+    min-height: 8%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky;
+    position: absolute;
     top: 0;
-    margin-top: 20px;
-    width: 95%;
-    border-radius: 12px;
+    width: 100%;
     z-index: 3;
 }
 
@@ -53,6 +52,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 15%;
+    margin-top: 2%;
 }
 
 .cal {
@@ -132,9 +132,6 @@ h1 {
     /* Set the height of the div */
     border-left: 3px solid darkslategrey;
     /* Add a 2px solid black left border to the div */
-}
-
-.menu {
 }
 
 #insta {
